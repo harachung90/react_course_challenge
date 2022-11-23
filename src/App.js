@@ -4,13 +4,11 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
+            <nav className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
-                <ul>
-                    <li>ReactFacts</li>
-                    <li>React Course - Project 1</li>
-                </ul>
-            </header>
+                <h3>ReactFacts</h3>
+                <h4>React Course - Project 1</h4>
+            </nav>
             <body className="App-body">
                 <h1>Fun facts about React</h1>
                 <ul>
@@ -22,7 +20,8 @@ function App() {
                 </ul>
             </body>
         </div>
-    );
+    )
+        ;
 }
 
 export default App;
