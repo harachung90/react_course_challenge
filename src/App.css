@@ -53,6 +53,10 @@ html, body {
 
 .App-body {
   padding-left: 20px;
+  background-image: url("./react-icon-large.png");
+  background-repeat: no-repeat;
+  background-size: 10% 100%;
+  background-position: right, 75%;
 }
 
 .App-body > h1 {
